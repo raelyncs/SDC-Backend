@@ -1,0 +1,217 @@
+.app-header {
+  background-color: rgb(124, 124, 124);
+  color: white;
+  width: 100%;
+  height: 55px;
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.related-outfit-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 1250px;
+}
+
+.related-items-wrapper, .your-outfit-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.your-outfit-wrapper {
+  margin-top: 18px;
+}
+
+.related-items-title, .your-outfit-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.swiper-container.related-outfit-swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.related-outfit-swiper .swiper-slide {
+  text-align: center;
+  font-size: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  flex-shrink: 0;
+}
+
+.product-photo-wrapper {
+  display: flex;
+  min-height: 200px;
+  max-height: 250px;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  background-color: rgb(211, 211, 211);
+}
+
+.product-info-wrapper {
+  height: 100%;
+  width: 100%;
+}
+
+.product-name-main {
+  font-weight: bold;
+}
+
+.product-info-name {
+  text-align: left;
+  margin-left: 15px;
+}
+
+.product-info-category {
+  font-weight: lighter;
+  font-size: 16px;
+  justify-content: end;
+  text-align: left;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+.related-outfit-swiper .swiper-button-disabled {
+  display: none !important;
+}
+
+.related-outfit-swiper .swiper-button-prev,
+.related-outfit-swiper .swiper-button-next {
+  color: black !important;
+  background-color: white !important;
+  height: 112% !important;
+  width: 75px !important;
+}
+
+.related-outfit-swiper .swiper-button-next {
+  position: absolute !important;
+  right: 0px !important;
+  top: 1px !important;
+  background: linear-gradient(to left, white, transparent 100%) !important;
+}
+
+.related-outfit-swiper .swiper-button-prev {
+  position: absolute !important;
+  left: 0px !important;
+  top: 0px !important;
+  background: linear-gradient(to right, white, transparent 100%) !important;
+}
+
+.product-name-style {
+  font-size: 16px;
+  font-weight: lighter;
+  margin-bottom: 3px;
+}
+
+.product-photo {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  width: 189px;
+  cursor: pointer;
+}
+
+.compare-button, .remove-button {
+  position: absolute;
+  right: 1px;
+  border: none;
+  background-color: rgb(211, 211, 211);
+}
+
+.your-outfit-add {
+  width: 24%;
+  height: 100%;
+  align-items: center;
+  border: 1px solid #2d2d2d;
+  /* padding: 7px; */
+  cursor: pointer;
+}
+
+.header-button {
+  width: 100%;
+  height: 100%;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  background-color: white;
+}
+
+.rating-compare {
+  text-align: left;
+}
+
+.rating {
+  text-align: left;
+  margin-left: 15px;
+  margin-top: 3px;
+  margin-bottom: 10px;
+}
+
+.price-container.related-price {
+  text-align: left;
+  margin-left: 15px;
+  font-size: 15px;
+}
+
+#add-outfit {
+  height: 100%;
+  background-color: rgb(243, 243, 243);
+  /* background-color: white; */
+}
+
+.fa-plus {
+  font-size: 125px;
+  align-self: center;
+  margin-top: 75px;
+  margin-bottom: 65px;
+}
+
+.add-label {
+  margin-bottom: 70px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.compare-modal {
+  justify-content: center;
+  align-items: center;
+}
+
+.comparison-table td,
+.comparison-table th {
+  background-color:rgb(245, 245, 245);
+  width: 300px;
+  height: 40px;
+  text-align: center;
+}
+
+.comparison-table th {
+  font-weight: bold;
+  font-size: 18px;
+}

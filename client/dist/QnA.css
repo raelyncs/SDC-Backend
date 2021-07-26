@@ -1,0 +1,94 @@
+.answerListScroll {
+  max-height: 25vh;
+  overflow: auto;
+  /* height: 18vh; */
+}
+
+.qna-wrapper {
+  margin-top: 20px;
+}
+
+.bolder {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.question {
+  padding: 5px 10px 5px 0px;
+}
+
+.questionList {
+  max-height: 50vh;
+  overflow: auto;
+  /* height: 88vh; */
+}
+
+u:hover {
+  cursor: pointer;
+  color: rgb(0, 89, 255);
+}
+
+.addAnswer {
+  float: right;
+}
+
+/* .form {
+  display: flex;
+  flex-direction: row;
+} */
+
+.search-field {
+  width: 100%;
+  padding: 10px 35px 10px 15px;
+  border: 10px 35px 10px 15px;
+  outline: none;
+}
+
+.search-button {
+  background: transparent;
+  border: none;
+  outline: none;
+  margin-left: -33px;
+}
+
+.search-button img {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+
+.moreAnswers {
+  border: none;
+  outline: none;
+  font-size: 12px;
+  padding: 5px 5px 5px 24px;
+  background: transparent;
+  font-weight: bold;
+}
+
+.addQuestions {
+  font-weight: bold;
+  margin: 10px 10px 10px 10px;
+  padding: 15px 25px 15px 25px;
+  background: transparent;
+}
+
+.moreQuestions {
+  font-weight: bold;
+  margin: 10px 10px 10px 10px;
+  padding: 15px 25px 15px 25px;
+  background: transparent;
+}
+
+.divider {
+  border-right: 1px solid black;;
+}
+
+.userContainer {
+  font-size: 12px;
+  padding: 10px 10px 4px 24px;
+}
+
+.addAnswerContainer {
+  font-size: 12px;
+}
