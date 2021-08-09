@@ -1,7 +1,0 @@
-{
-  "host": "3.21.98.9",
-  "user": "ubuntu",
-  "db": "awsSDC",
-  "pw": "ubuntu",
-  "port": 5432
-}
